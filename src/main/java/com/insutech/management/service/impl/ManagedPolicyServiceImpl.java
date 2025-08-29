@@ -4,6 +4,7 @@ package com.insutech.management.service.impl;
 import com.insutech.management.dto.ManagedPolicyRequest;
 import com.insutech.management.dto.ManagedPolicyResponse;
 import com.insutech.management.entity.ManagedPolicy;
+import com.insutech.management.exception.ManagedPolicyNotFoundException;
 import com.insutech.management.mapper.ManagedPolicyMapper;
 import com.insutech.management.repository.ManagedPolicyRepository;
 import com.insutech.management.service.ManagedPolicyService;
